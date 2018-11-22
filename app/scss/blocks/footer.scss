@@ -1,0 +1,38 @@
+.footer {
+    background-color: #254e5f;
+    padding: 97px 0 83px 0;
+
+    &__title {
+        font-family: Roboto;
+        font-size: 32px;
+        font-weight: normal;
+        line-height: 1.44;
+        color: #ffffff;
+    }
+
+    &__input-container {
+        display: flex;
+        align-items: center;
+
+        & input {
+            width: 370px;
+            height: 48px;
+            padding: 0 30px;
+            border-radius: 3px 0 0 3px;
+            background-color: #ffffff;
+            font-family: Roboto;
+            font-size: 14px;
+            line-height: 1.43;
+            color: #6d7783;
+            border: none;
+        }
+
+        & button {
+            width: 48px;
+            height: 48px;
+            border-radius: 0 3px 3px 0;
+            background-color: #f5a623;
+            border: none;
+        }
+    }
+}

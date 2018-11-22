@@ -1,0 +1,53 @@
+.header {
+    color: black;
+    height: 666px;
+    width: 100%;
+    background: transparent url(../img/bg.svg) center center no-repeat;
+    background-size: cover;
+
+    &__wrapper {
+        height: 666px;
+        width: 100%;
+        background: transparent url(../img/bg-icons.png) right 0 no-repeat;
+        background-size: contain;
+    }
+
+    &__logo {
+        margin-top: 82px;
+    }
+
+    &__title {
+        font-family: Roboto;
+        font-size: 72px;
+        font-weight: 500;
+        line-height: 74px;
+        color: #ffffff;
+        margin: 0;
+        margin-top: 115px;
+    }
+
+    &__button {
+        height: 48px;
+        border-radius: 3px;
+        background-color: #254e5f;
+        padding: 0 38px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 500;
+        color: #fff;
+        width: fit-content;
+        margin-top: 92px;
+        text-decoration: none;
+        opacity:1;
+        transition: opacity 0.5s;
+
+        &:hover {
+            color: #fff;
+            text-decoration: none;
+            opacity:0.7;
+        }
+    }
+}

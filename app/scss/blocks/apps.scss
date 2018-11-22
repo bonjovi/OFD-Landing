@@ -1,0 +1,77 @@
+.apps {
+    background-color: #fbfbfb;
+    padding: 65px 0 10px 0;
+
+    & .row {
+        margin-bottom: 65px;
+    }
+
+    &__app {
+        padding: 40px 44px;
+        background-color: #fff;
+        border: 1px solid #e5e5e5;
+        flex: 1 1 auto;
+        width: 46%;
+
+        &:first-child {
+            margin-right: 40px;
+        }
+    }
+
+    &__top {
+        display: flex;
+
+        & img {
+            margin-right: 20px;
+            width: 150px;
+            height: 150px;
+            display: block;
+            flex-grow: 1;
+        }
+    }
+
+    &__title {
+        font-family: Roboto;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 1.33;
+        color: #254e5f;
+    }
+
+    &__list {
+        list-style: disc;
+        margin: 24px 0 45px 20px;
+        padding: 0;
+        & li {
+            font-family: Roboto;
+            font-size: 14px;
+            line-height: 1.5;
+            color: #6d7783;
+        }
+    }
+
+    &__button {
+        width: 210px;
+        height: 42px;
+        border-radius: 3px;
+        box-shadow: 0 2px 4px 0 #b7b7b7;
+        background-color: #ed4d5b;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        text-decoration: none;
+        transition: opacity 0.5s;
+
+        &:hover {
+            color: #fff;
+            text-decoration: none;
+            opacity: 0.7;
+        }
+
+        & img {
+            margin: 2px 0 0 7px;
+        }
+    }
+
+}
