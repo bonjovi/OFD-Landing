@@ -403,29 +403,29 @@ template {
 
 input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
-  font-family: 'OpenSans Regular';
-  font-size: 1rem;
-  color: #fff; }
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #6d7783; }
 
 input::-moz-placeholder,
 textarea::-moz-placeholder {
-  font-family: 'OpenSans Regular';
-  font-size: 1rem;
-  color: #fff; }
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #6d7783; }
 
 /* Firefox 19+ */
 input:-moz-placeholder,
 textarea:-moz-placeholder {
-  font-family: 'OpenSans Regular';
-  font-size: 1rem;
-  color: #fff; }
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #6d7783; }
 
 /* Firefox 18- */
 input:-ms-input-placeholder,
 textarea:-ms-input-placeholder {
-  font-family: 'OpenSans Regular';
-  font-size: 1rem;
-  color: #fff; }
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #6d7783; }
 
 @media (min-width: 1200px) {
   .container {
@@ -785,3 +785,37 @@ textarea:-ms-input-placeholder {
       border-radius: 0 3px 3px 0;
       background-color: #f5a623;
       border: none; }
+  .footer__simpletext {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 2.88;
+    color: #ffffff; }
+  .footer__feedback-input {
+    width: 370px;
+    height: 48px;
+    border-radius: 2px;
+    background-color: #ffffff;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.43;
+    color: #6d7783;
+    border: none;
+    margin-bottom: 25px;
+    padding: 0 30px; }
+  .footer__feedback-button {
+    width: 246px;
+    height: 48px;
+    border-radius: 3px;
+    background-color: #4ba1a5;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    color: #ffffff;
+    border: none;
+    transition: opacity 0.5s;
+    cursor: pointer; }
+    .footer__feedback-button:hover {
+      opacity: 0.7; }
