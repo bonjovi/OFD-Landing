@@ -437,6 +437,22 @@ textarea:-ms-input-placeholder {
   width: 100%;
   background: transparent url(../img/bg.svg) center center no-repeat;
   background-size: cover; }
+  .header__zigzag {
+    background: #fff;
+    position: relative; }
+    .header__zigzag:after {
+      background: linear-gradient(-45deg, transparent 20px, #fff 0), linear-gradient(45deg, transparent 20px, #fff 0);
+      background-position: left bottom;
+      background-size: 28px 28px;
+      content: "";
+      display: block;
+      height: 20px;
+      width: 100%;
+      position: absolute;
+      margin-top: -20px;
+      -webkit-transform: rotate(180deg);
+          -ms-transform: rotate(180deg);
+              transform: rotate(180deg); }
   .header__wrapper {
     height: 666px;
     width: 100%;
@@ -446,6 +462,9 @@ textarea:-ms-input-placeholder {
       .header__wrapper {
         background: transparent url(../img/bg-icons-opacity.png) right 0 no-repeat;
         background-size: contain; } }
+    @media only screen and (max-width: 640px) {
+      .header__wrapper {
+        background-position: bottom; } }
   .header__logo {
     margin-top: 82px; }
   .header__title {
@@ -459,6 +478,10 @@ textarea:-ms-input-placeholder {
     @media only screen and (max-width: 768px) {
       .header__title {
         font-size: 58px; } }
+    @media only screen and (max-width: 640px) {
+      .header__title {
+        font-size: 32px;
+        line-height: 38px; } }
   .header__button {
     height: 48px;
     border-radius: 3px;
@@ -484,6 +507,9 @@ textarea:-ms-input-placeholder {
     text-decoration: none;
     opacity: 1;
     transition: opacity 0.5s; }
+    @media only screen and (max-width: 640px) {
+      .header__button {
+        margin-top: 40px; } }
     .header__button:hover {
       color: #fff;
       text-decoration: none;
@@ -600,15 +626,31 @@ textarea:-ms-input-placeholder {
       font-size: 14px;
       color: #6d7783; }
   .quickeasy__block1 {
-    background: #254e5f url(../img/block-1.png) 0 0 no-repeat;
+    background: #004E61 url(../img/block-1.png) 0 0 no-repeat;
     background-size: cover; }
+    @media only screen and (max-width: 640px) {
+      .quickeasy__block1 {
+        height: 420px;
+        background-size: contain;
+        background-position: bottom; } }
     .quickeasy__block1 .quickeasy__description {
       margin: 65px 0 0 250px;
       background: transparent url(../img/time-icon.svg) 0 center no-repeat;
       padding-left: 37px; }
+      @media only screen and (max-width: 640px) {
+        .quickeasy__block1 .quickeasy__description {
+          display: table;
+          margin: 20px auto 20px auto;
+          line-height: 30px; } }
   .quickeasy__block2 {
     background: #254e5f url(../img/block-2.png) 0 0 no-repeat;
     background-size: cover; }
+    @media only screen and (max-width: 640px) {
+      .quickeasy__block2 {
+        height: 440px;
+        background-color: #B0E3DA;
+        background-size: contain;
+        background-position: bottom; } }
     .quickeasy__block2 .quickeasy__title {
       color: #254e5f; }
       .quickeasy__block2 .quickeasy__title span {
@@ -618,16 +660,58 @@ textarea:-ms-input-placeholder {
       background: transparent url(../img/check-icon.svg) 0 center no-repeat;
       padding-left: 37px;
       color: #254e5f; }
+      .quickeasy__block2 .quickeasy__description span {
+        display: none; }
+      @media only screen and (max-width: 640px) {
+        .quickeasy__block2 .quickeasy__description {
+          display: table;
+          margin: 20px auto 20px auto;
+          line-height: 30px;
+          width: 90%; }
+          .quickeasy__block2 .quickeasy__description br {
+            display: contents; }
+          .quickeasy__block2 .quickeasy__description span {
+            display: inline; } }
   .quickeasy__block3 {
-    background: #254e5f url(../img/block-3.png) 0 0 no-repeat;
+    background: #004E61 url(../img/block-3.png) 0 0 no-repeat;
     background-size: cover; }
+    @media only screen and (max-width: 640px) {
+      .quickeasy__block3 {
+        height: 420px;
+        background-size: contain;
+        background-position: bottom; } }
+    .quickeasy__block3 .quickeasy__title span {
+      display: none; }
+    @media only screen and (max-width: 640px) {
+      .quickeasy__block3 .quickeasy__title br {
+        display: none; }
+      .quickeasy__block3 .quickeasy__title span {
+        display: inline; } }
     .quickeasy__block3 .quickeasy__description {
       margin: 19px 0 0 409px;
       background: transparent url(../img/time-icon.svg) 0 center no-repeat;
       padding-left: 37px; }
+      .quickeasy__block3 .quickeasy__description span {
+        display: none; }
+      @media only screen and (max-width: 640px) {
+        .quickeasy__block3 .quickeasy__description {
+          display: table;
+          margin: 20px auto 20px auto;
+          line-height: 30px; }
+          .quickeasy__block3 .quickeasy__description br {
+            display: none; }
+          .quickeasy__block3 .quickeasy__description span {
+            display: inline; } }
   .quickeasy__block4 {
     background: #254e5f url(../img/block-4.png) 0 0 no-repeat;
     background-size: cover; }
+    .quickeasy__block4 .quickeasy__title span {
+      display: none; }
+    @media only screen and (max-width: 640px) {
+      .quickeasy__block4 .quickeasy__title br {
+        display: none; }
+      .quickeasy__block4 .quickeasy__title span {
+        display: inline; } }
     .quickeasy__block4 .quickeasy__title {
       color: #254e5f; }
       .quickeasy__block4 .quickeasy__title span {
@@ -637,6 +721,18 @@ textarea:-ms-input-placeholder {
       background: transparent url(../img/check-icon.svg) 0 center no-repeat;
       padding-left: 37px;
       color: #254e5f; }
+      .quickeasy__block4 .quickeasy__description span {
+        display: none; }
+      @media only screen and (max-width: 640px) {
+        .quickeasy__block4 .quickeasy__description {
+          display: table;
+          margin: 20px auto 20px auto;
+          line-height: 30px;
+          width: 90%; }
+          .quickeasy__block4 .quickeasy__description br {
+            display: none; }
+          .quickeasy__block4 .quickeasy__description span {
+            display: inline; } }
   .quickeasy__title {
     font-family: Roboto;
     font-size: 16px;
@@ -658,6 +754,9 @@ textarea:-ms-input-placeholder {
   background-image: url(../img/profits-line-1.svg);
   background-repeat: no-repeat;
   background-position: right top; }
+  @media only screen and (max-width: 640px) {
+    .profits {
+      background-image: none; } }
   @media only screen and (max-width: 992px) {
     .profits .col-0 {
       display: none !important; } }
@@ -710,8 +809,14 @@ textarea:-ms-input-placeholder {
         -ms-flex: 1 1 auto;
             flex: 1 1 auto;
     width: 46%; }
+    @media only screen and (max-width: 992px) {
+      .apps__app {
+        width: 100%; } }
     .apps__app:first-child {
       margin-right: 40px; }
+      @media only screen and (max-width: 992px) {
+        .apps__app:first-child {
+          margin: 0 0 40px 0; } }
   .apps__top {
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -724,6 +829,14 @@ textarea:-ms-input-placeholder {
       -webkit-flex-grow: 1;
           -ms-flex-positive: 1;
               flex-grow: 1; }
+      @media only screen and (max-width: 640px) {
+        .apps__top img {
+          margin-bottom: 20px; } }
+    @media only screen and (max-width: 640px) {
+      .apps__top {
+        -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+                flex-direction: column; } }
   .apps__title {
     font-family: Roboto;
     font-size: 24px;
@@ -791,6 +904,9 @@ textarea:-ms-input-placeholder {
       line-height: 1.43;
       color: #6d7783;
       border: none; }
+      @media only screen and (max-width: 640px) {
+        .footer__input-container input {
+          width: 100%; } }
     .footer__input-container button {
       width: 48px;
       height: 48px;
@@ -816,6 +932,9 @@ textarea:-ms-input-placeholder {
     border: none;
     margin-bottom: 25px;
     padding: 0 30px; }
+    @media only screen and (max-width: 640px) {
+      .footer__feedback-input {
+        width: 100%; } }
   .footer__feedback-button {
     width: 246px;
     height: 48px;
@@ -829,5 +948,11 @@ textarea:-ms-input-placeholder {
     border: none;
     transition: opacity 0.5s;
     cursor: pointer; }
+    @media only screen and (max-width: 640px) {
+      .footer__feedback-button {
+        width: 100%; } }
     .footer__feedback-button:hover {
       opacity: 0.7; }
+  @media only screen and (max-width: 768px) {
+    .footer .col-md-1 {
+      margin: 55px 0; } }

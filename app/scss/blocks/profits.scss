@@ -6,6 +6,10 @@
     background-repeat: no-repeat;
     background-position: right top;
 
+    @media only screen and (max-width: 640px) {
+        background-image: none;
+    }
+
     @media only screen and (max-width: 992px) {
         & .col-0 {
             display: none !important;

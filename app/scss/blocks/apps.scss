@@ -13,8 +13,15 @@
         flex: 1 1 auto;
         width: 46%;
 
+        @media only screen and (max-width: 992px) {
+            width: 100%;
+        }
+
         &:first-child {
             margin-right: 40px;
+            @media only screen and (max-width: 992px) {
+                margin: 0 0 40px 0;
+            }
         }
     }
 
@@ -27,6 +34,14 @@
             height: 150px;
             display: block;
             flex-grow: 1;
+
+            @media only screen and (max-width: 640px) {
+                margin-bottom: 20px;
+            }
+        }
+
+        @media only screen and (max-width: 640px) {
+            flex-direction: column;
         }
     }
 
