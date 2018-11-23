@@ -442,6 +442,10 @@ textarea:-ms-input-placeholder {
     width: 100%;
     background: transparent url(../img/bg-icons.png) right 0 no-repeat;
     background-size: contain; }
+    @media only screen and (max-width: 1200px) {
+      .header__wrapper {
+        background: transparent url(../img/bg-icons-opacity.png) right 0 no-repeat;
+        background-size: contain; } }
   .header__logo {
     margin-top: 82px; }
   .header__title {
@@ -452,6 +456,9 @@ textarea:-ms-input-placeholder {
     color: #ffffff;
     margin: 0;
     margin-top: 115px; }
+    @media only screen and (max-width: 768px) {
+      .header__title {
+        font-size: 58px; } }
   .header__button {
     height: 48px;
     border-radius: 3px;
@@ -494,9 +501,11 @@ textarea:-ms-input-placeholder {
     line-height: 23px;
     text-transform: uppercase;
     margin-top: 30px; }
+  .advantages .row > div {
+    margin-bottom: 30px; }
 
 .quickeasy {
-  margin-top: 170px; }
+  margin-top: 130px; }
   .quickeasy__greyblock {
     height: 586px;
     width: 100%;
@@ -649,6 +658,9 @@ textarea:-ms-input-placeholder {
   background-image: url(../img/profits-line-1.svg);
   background-repeat: no-repeat;
   background-position: right top; }
+  @media only screen and (max-width: 992px) {
+    .profits .col-0 {
+      display: none !important; } }
   .profits__title {
     font-family: Roboto;
     font-size: 42px;

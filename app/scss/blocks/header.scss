@@ -5,11 +5,18 @@
     background: transparent url(../img/bg.svg) center center no-repeat;
     background-size: cover;
 
+    
+
     &__wrapper {
         height: 666px;
         width: 100%;
         background: transparent url(../img/bg-icons.png) right 0 no-repeat;
         background-size: contain;
+
+        @media only screen and (max-width: 1200px) {
+            background: transparent url(../img/bg-icons-opacity.png) right 0 no-repeat;
+            background-size: contain;
+        }
     }
 
     &__logo {
@@ -24,6 +31,10 @@
         color: #ffffff;
         margin: 0;
         margin-top: 115px;
+
+        @media only screen and (max-width: 768px) {
+            font-size: 58px;
+        }
     }
 
     &__button {
@@ -50,4 +61,6 @@
             opacity:0.7;
         }
     }
+
+    
 }
