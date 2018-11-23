@@ -879,7 +879,42 @@ textarea:-ms-input-placeholder {
 
 .footer {
   background-color: #254e5f;
-  padding: 97px 0 83px 0; }
+  padding: 40px 0 40px 0; }
+  .footer hr {
+    width: 100%;
+    height: 1px;
+    border: none;
+    background-color: #fff;
+    margin: 10px 0 30px 0; }
+  .footer__social {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 30px; }
+    .footer__social a {
+      margin-right: 10px;
+      transition: opacity 0.5s; }
+      .footer__social a:hover {
+        opacity: 0.7; }
+  .footer__text {
+    font-family: Roboto;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+    transition: opacity 0.5s, color 0.5s;
+    display: block; }
+    .footer__text_mini {
+      font-size: 12px;
+      margin-bottom: 10px;
+      color: #fff; }
+  .footer__link {
+    font-size: 12px;
+    margin-bottom: 10px;
+    color: #fff;
+    text-decoration: underline; }
+    .footer__link:hover {
+      color: #fff;
+      text-decoration: none; }
   .footer__title {
     font-family: Roboto;
     font-size: 32px;
@@ -956,3 +991,10 @@ textarea:-ms-input-placeholder {
   @media only screen and (max-width: 768px) {
     .footer .col-md-1 {
       margin: 55px 0; } }
+
+a.footer__text {
+  text-decoration: none; }
+  a.footer__text:hover {
+    opacity: 0.7;
+    color: #FFFFFF;
+    text-decoration: none; }
