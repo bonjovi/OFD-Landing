@@ -230,6 +230,20 @@
                 }
 
             }
+
+            @media screen and (min-width:992px) and (max-width:1200px) {
+                display: table;
+                margin: 7px 0 0 210px;
+                line-height: 30px;
+
+                & br {
+                    display: none;
+                }
+                
+                & span {
+                    display: inline;
+                }
+            }
         }
     }
 

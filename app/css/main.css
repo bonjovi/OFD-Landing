@@ -702,6 +702,15 @@ textarea:-ms-input-placeholder {
             display: none; }
           .quickeasy__block3 .quickeasy__description span {
             display: inline; } }
+      @media screen and (min-width: 992px) and (max-width: 1200px) {
+        .quickeasy__block3 .quickeasy__description {
+          display: table;
+          margin: 7px 0 0 210px;
+          line-height: 30px; }
+          .quickeasy__block3 .quickeasy__description br {
+            display: none; }
+          .quickeasy__block3 .quickeasy__description span {
+            display: inline; } }
   .quickeasy__block4 {
     background: #B2E2DB url(../img/block-4.png) 0 0 no-repeat;
     background-size: contain;
