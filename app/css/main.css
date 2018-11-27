@@ -703,8 +703,10 @@ textarea:-ms-input-placeholder {
           .quickeasy__block3 .quickeasy__description span {
             display: inline; } }
   .quickeasy__block4 {
-    background: #254e5f url(../img/block-4.png) 0 0 no-repeat;
-    background-size: cover; }
+    background: #B2E2DB url(../img/block-4.png) 0 0 no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    height: 350px; }
     .quickeasy__block4 .quickeasy__title span {
       display: none; }
     @media only screen and (max-width: 640px) {
