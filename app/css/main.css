@@ -669,8 +669,7 @@ textarea:-ms-input-placeholder {
         .quickeasy__block2 .quickeasy__description {
           display: table;
           margin: 20px auto 20px auto;
-          line-height: 1.36;
-          width: 90%; }
+          line-height: 1.36; }
           .quickeasy__block2 .quickeasy__description br {
             display: contents; }
           .quickeasy__block2 .quickeasy__description span {
@@ -744,8 +743,7 @@ textarea:-ms-input-placeholder {
         .quickeasy__block4 .quickeasy__description {
           display: table;
           margin: 20px auto 20px auto;
-          line-height: 30px;
-          width: 90%; }
+          line-height: 30px; }
           .quickeasy__block4 .quickeasy__description br {
             display: none; }
           .quickeasy__block4 .quickeasy__description span {
