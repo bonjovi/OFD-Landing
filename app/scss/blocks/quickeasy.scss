@@ -120,13 +120,17 @@
         }
 
         & .quickeasy__description {
-            margin: 65px 0 0 250px;
+            margin: 65px 0 0 235px;
             background: transparent url(../img/time-icon.svg) 0 center no-repeat;
             padding-left: 37px;
 
             @media only screen and (max-width: 640px) {
                 display: table;
                 margin: 20px auto 20px auto;
+                line-height: 1.36;
+            }
+
+            @media screen and (min-width:768px) and (max-width:992px) {
                 line-height: 30px;
             }
         }
@@ -152,7 +156,7 @@
         }
 
         & .quickeasy__description {
-            margin: 22px 0 0 236px;
+            margin: 22px 0 0 235px;
             background: transparent url(../img/check-icon.svg) 0 center no-repeat;
             padding-left: 37px;
             color: #254e5f;
@@ -164,7 +168,7 @@
             @media only screen and (max-width: 640px) {
                 display: table;
                 margin: 20px auto 20px auto;
-                line-height: 30px;
+                line-height: 1.36;
                 width: 90%;
 
                 & br {
@@ -206,10 +210,10 @@
         }
 
         & .quickeasy__description {
-            margin: 19px 0 0 409px;
+            margin: 19px 0 0 235px;
             background: transparent url(../img/time-icon.svg) 0 center no-repeat;
             padding-left: 37px;
-
+            line-height: 30px;
             
 
             & span {
@@ -251,6 +255,10 @@
         background: #B2E2DB url(../img/block-4.png) 0 0 no-repeat;
         background-size: contain;
         background-position: bottom;
+
+        @media screen and (min-width:768px) and (max-width:992px) {
+            background-size: cover;
+        }
 
         & .quickeasy__title {
             & span {

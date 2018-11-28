@@ -634,13 +634,16 @@ textarea:-ms-input-placeholder {
         background-size: contain;
         background-position: bottom; } }
     .quickeasy__block1 .quickeasy__description {
-      margin: 65px 0 0 250px;
+      margin: 65px 0 0 235px;
       background: transparent url(../img/time-icon.svg) 0 center no-repeat;
       padding-left: 37px; }
       @media only screen and (max-width: 640px) {
         .quickeasy__block1 .quickeasy__description {
           display: table;
           margin: 20px auto 20px auto;
+          line-height: 1.36; } }
+      @media screen and (min-width: 768px) and (max-width: 992px) {
+        .quickeasy__block1 .quickeasy__description {
           line-height: 30px; } }
   .quickeasy__block2 {
     background: #254e5f url(../img/block-2.png) 0 0 no-repeat;
@@ -656,7 +659,7 @@ textarea:-ms-input-placeholder {
       .quickeasy__block2 .quickeasy__title span {
         color: #ed4d5b; }
     .quickeasy__block2 .quickeasy__description {
-      margin: 22px 0 0 236px;
+      margin: 22px 0 0 235px;
       background: transparent url(../img/check-icon.svg) 0 center no-repeat;
       padding-left: 37px;
       color: #254e5f; }
@@ -666,7 +669,7 @@ textarea:-ms-input-placeholder {
         .quickeasy__block2 .quickeasy__description {
           display: table;
           margin: 20px auto 20px auto;
-          line-height: 30px;
+          line-height: 1.36;
           width: 90%; }
           .quickeasy__block2 .quickeasy__description br {
             display: contents; }
@@ -688,9 +691,10 @@ textarea:-ms-input-placeholder {
       .quickeasy__block3 .quickeasy__title span {
         display: inline; } }
     .quickeasy__block3 .quickeasy__description {
-      margin: 19px 0 0 409px;
+      margin: 19px 0 0 235px;
       background: transparent url(../img/time-icon.svg) 0 center no-repeat;
-      padding-left: 37px; }
+      padding-left: 37px;
+      line-height: 30px; }
       .quickeasy__block3 .quickeasy__description span {
         display: none; }
       @media only screen and (max-width: 640px) {
@@ -715,6 +719,9 @@ textarea:-ms-input-placeholder {
     background: #B2E2DB url(../img/block-4.png) 0 0 no-repeat;
     background-size: contain;
     background-position: bottom; }
+    @media screen and (min-width: 768px) and (max-width: 992px) {
+      .quickeasy__block4 {
+        background-size: cover; } }
     .quickeasy__block4 .quickeasy__title span {
       display: none; }
     @media only screen and (max-width: 640px) {
