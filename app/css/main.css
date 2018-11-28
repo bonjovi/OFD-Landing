@@ -641,10 +641,13 @@ textarea:-ms-input-placeholder {
         .quickeasy__block1 .quickeasy__description {
           display: table;
           margin: 20px auto 20px auto;
-          line-height: 1.36; } }
+          line-height: 30px; } }
       @media screen and (min-width: 768px) and (max-width: 992px) {
         .quickeasy__block1 .quickeasy__description {
           line-height: 30px; } }
+      @media screen and (min-width: 0px) and (max-width: 436px) {
+        .quickeasy__block1 .quickeasy__description {
+          line-height: 1.36; } }
   .quickeasy__block2 {
     background: #254e5f url(../img/block-2.png) 0 0 no-repeat;
     background-size: cover; }
