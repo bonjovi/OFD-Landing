@@ -1013,7 +1013,8 @@ textarea:-ms-input-placeholder {
       margin: 55px 0; } }
 
 a.footer__text {
-  text-decoration: none; }
+  text-decoration: none;
+  display: table; }
   a.footer__text:hover {
     opacity: 0.7;
     color: #FFFFFF;
