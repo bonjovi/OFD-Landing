@@ -532,6 +532,8 @@ textarea:-ms-input-placeholder {
 
 .quickeasy {
   margin-top: 130px; }
+  .quickeasy__displayed {
+    display: inline !important; }
   .quickeasy__greyblock {
     height: 586px;
     width: 100%;

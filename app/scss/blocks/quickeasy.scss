@@ -1,5 +1,9 @@
 .quickeasy {
     margin-top: 130px;
+
+    &__displayed {
+        display: inline !important;
+    }
     
 
     &__greyblock {
