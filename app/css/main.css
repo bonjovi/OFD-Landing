@@ -484,9 +484,9 @@ textarea:-ms-input-placeholder {
         line-height: 38px; } }
   .header__button {
     height: 48px;
+    width: 189px;
     border-radius: 3px;
     background-color: #254e5f;
-    padding: 0 38px;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
@@ -500,9 +500,6 @@ textarea:-ms-input-placeholder {
     font-size: 16px;
     font-weight: 500;
     color: #fff;
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
     margin-top: 92px;
     text-decoration: none;
     opacity: 1;
